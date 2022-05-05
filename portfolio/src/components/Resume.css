@@ -1,0 +1,29 @@
+
+.main{  
+    height: 760px;
+    width: 100wh;
+}
+.resume-btn{
+    border: 10px solid rgb(0, 0, 0);
+    font-size: 25px;
+    background-color: none;
+    width: 100px;
+    
+}
+.portfolio .resume-btnn{
+    text-align: center;
+    margin: 300px 400px 0 400px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 45px 80px 45px 80px;
+    background-color: none;
+}
+
+
+.portfolio .resume-btnn:hover{
+    border: 1px solid rgba(255, 255, 255, 0.705);
+    box-shadow: 0 0 10px #000000;
+}
+.resume-btnn .a{
+text-decoration: none;
+}

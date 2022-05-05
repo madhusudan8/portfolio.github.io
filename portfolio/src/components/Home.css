@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Merriweather:wght@300&family=PT+Serif:wght@400;700&family=Square+Peg&family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Libre+Bodoni:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Libre+Bodoni:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comfortaa:wght@300&family=Libre+Bodoni:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Playfair+Display&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.home{
+    display: flex;
+    height: 760px;
+}
+.right{
+    background-image: url('./photos/home.jpg');
+    height: 760px;
+    width: 100wh; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    filter: blur(3px);
+  -webkit-filter: blur(2px);
+}
+
+.RightText {
+    padding-left: 10%;
+    padding-top: 20%;
+    position: absolute;
+    top: 0;
+    width: 40%;
+}
+
+.RightText h1 {
+    color:rgb(0, 0, 0);
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+}
+.RightText h3{
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Comfortaa', cursive;
+    color: whitesmoke;
+    
+}
+
+.RightText h4{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-family: 'Comfortaa', cursive; 
+}
+
+.btn{
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 15px 40px 15px 40px;
+    background-color: none;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+}
+
+.btn:hover{
+    border: 1px solid rgba(255, 255, 255, 0.705);
+    box-shadow: 0 0 10px #000000;
+}

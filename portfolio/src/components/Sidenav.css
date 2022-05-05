@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%; 
+}
+.left{
+    background-color: rgb(3, 3, 3);
+    height: 760px;
+    width: 100%;
+}
+.icon img{
+    height: 90px;
+    width: 90px;
+    margin-left: 25%;
+    margin-top: 20%;
+    border-radius: 47px;
+    border:6px solid rgb(53, 51, 51);
+    text-align: center;
+}
+.icon h3{
+    margin-top: 9px;
+    color: rgb(255, 255, 255);
+    font-size: 33px;
+    font-family: 'Stick No Bills', sans-serif;
+    letter-spacing: 12px;
+    text-align: center;
+}
+
+.social{
+   margin-top: 15px;
+   display: flex;
+   margin: 20px;
+   justify-content: center;
+   position: relative;
+   padding-top: 65%;
+   flex-wrap: wrap;
+}
+
+.social i{  
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(53, 51, 51);
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 4px;
+}
+
+.social i:hover{
+    width: 35px;
+    height: 35px;
+    border-radius: 18px;
+    background-color: rgb(0, 153, 255);
+}
+
+ul li{
+    list-style: none;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+ul  a{
+    text-decoration: none;
+    text-align: left;
+}
+
+
+ul i{
+    padding-right: 9px;
+}
+
+ul li:hover{
+    color: rgb(15, 137, 252);
+}
+
+
+.navElements ul{
+    padding-left: 15%;
+}
+.switch {
+	position: relative;
+	display: block;
+	/* vertical-align: top; */
+	width: 100px;
+	height: 30px;
+	padding: 3px;
+	margin: 0 10px 10px 0;
+	background: linear-gradient(to bottom, #eeeeee, #FFFFFF 25px);
+	background-image: -webkit-linear-gradient(top, #eeeeee, #FFFFFF 25px);
+	border-radius: 18px;
+	box-shadow: inset 0 -1px white, inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	cursor: pointer;
+	box-sizing:content-box;
+}
+.switch-input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	box-sizing:content-box;
+}
+.switch-label {
+	position: relative;
+	display: block;
+	height: inherit;
+	font-size: 10px;
+	text-transform: uppercase;
+	background: #eceeef;
+	border-radius: inherit;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);
+	box-sizing:content-box;
+}
+.switch-label:before, .switch-label:after {
+	position: absolute;
+	top: 50%;
+	margin-top: -.5em;
+	line-height: 1;
+	-webkit-transition: inherit;
+	-moz-transition: inherit;
+	-o-transition: inherit;
+	transition: inherit;
+	box-sizing:content-box;
+}
+.switch-label:before {
+	content: attr(data-off);
+	right: 11px;
+	color: #aaaaaa;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+.switch-label:after {
+	content: attr(data-on);
+	left: 11px;
+	color: #FFFFFF;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+	opacity: 0;
+}
+.switch-input:checked ~ .switch-label {
+	background: #E1B42B;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.switch-input:checked ~ .switch-label:before {
+	opacity: 0;
+}
+.switch-input:checked ~ .switch-label:after {
+	opacity: 1;
+}
+.switch-handle {
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	width: 28px;
+	height: 28px;
+	background: linear-gradient(to bottom, #FFFFFF 40%, #f0f0f0);
+	background-image: -webkit-linear-gradient(top, #FFFFFF 40%, #f0f0f0);
+	border-radius: 100%;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.switch-handle:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -6px 0 0 -6px;
+	width: 12px;
+	height: 12px;
+	background: linear-gradient(to bottom, #eeeeee, #FFFFFF);
+	background-image: -webkit-linear-gradient(top, #eeeeee, #FFFFFF);
+	border-radius: 6px;
+	box-shadow: inset 0 1px rgba(0, 0, 0, 0.02);
+}
+.switch-input:checked ~ .switch-handle {
+	left: 74px;
+	box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+ 
+.switch-label, .switch-handle {
+	transition: All 0.3s ease;
+	-webkit-transition: All 0.3s ease;
+	-moz-transition: All 0.3s ease;
+	-o-transition: All 0.3s ease;
+
+}

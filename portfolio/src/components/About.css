@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=PT+Serif&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=PT+Serif:wght@400;700&display=swap');
+}
+.about-landing{
+    background-color: #737373;
+    height: 760px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100wh; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+.about-right{
+    color: rgb(0, 0, 0);
+    width: 45%;
+    margin-top: 150px;
+    font-family: 'Merriweather', serif;
+    font-family: 'PT Serif', serif;
+}
+.about-right h1{
+    font-weight: bold;
+    font-size: 100px;
+}
+.about-right p{
+    font-family: 'PT Serif', serif;
+}
+.about-left{
+    width: 45%;
+    margin-top: 60px;
+    padding-right: 200px;
+}
+
+.card{
+    border: 1px solid green;
+    margin-top: 20px;
+    padding: 20px;
+    transition: transform .2s;
+}
+.card h5 {
+    font-size: 20px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #9eed9e;
+}
